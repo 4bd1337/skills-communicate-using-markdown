@@ -2,9 +2,9 @@
 
 ## Morning Planning
 
-- [ ] This task is complete
-- [x] This task is not complete
-- [ ] Checkit out the [github blog](https://github.blog/) for topic ideas.
+- [x] This task is complete
+- [ ] This task is not complete
+- [ ] Check out the [github blog](https://github.blog/) for topic ideas.
 - [ ] Learn about [GitHub Pages](https://skills.github.com/#first-day-on-github).
 - [ ] Convert my first blog post into an actual webpage.
 - [x] #739
@@ -15,6 +15,6 @@
 
 ```ruby
 require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
+puts markdown.render("Hello World!")
 ```
