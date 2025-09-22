@@ -19,7 +19,7 @@ markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
 puts markdown.render("Hello World!")
 ```
 
-## Example: Terminal Command
+Example: Terminal Command
 
 ```bash
 git clone https://github.com/skills/communicate-using-markdown
