@@ -46,7 +46,7 @@ ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output
 Example
 Relative URL to an image in the repository:
 
-![Mona the Octocat](original.png)
+![Mona the Octocat](octospider.png)
 
 Absolute URL to an image on the internet:
 
