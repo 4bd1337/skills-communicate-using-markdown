@@ -51,3 +51,17 @@ Relative URL to an image in the repository:
 Absolute URL to an image on the internet:
 
 <img alt="Mona the Octocat" src="https://octodex.github.com/images/original.png" width="200" align="right">
+
+## ⌨️ Activity: Merge blog post
+
+In the top navigation, select the Pull requests tab.
+
+Create a new pull request, using main and compare:start-blog for the branch details.
+
+(Optional) Set a clear title and description for the pull request.
+
+Scroll down and click the Merge button.
+
+Click Merge pull request.
+
+With the pull request merged, Mona will prepare the final review. Nice work! You are done! 🎉
