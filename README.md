@@ -8,7 +8,7 @@ Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
 
 Remember, it's self-paced so feel free to take a break! ☕️
 
-[![Go to Exercice badge](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/4bd1337/skills-communicate-using-markdown/issues/1)
+[![Go to Exercise badge](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/4bd1337/skills-communicate-using-markdown/issues/1)
 
 ---
 
@@ -16,13 +16,13 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 ```ruby
 require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
+puts markdown.render("Hello World!")
 ```
 
-- [ ] This task is complete
-- [x] This task is not complete
-- [ ] Checkit out the [github blog](https://github.blog/) for topic ideas.
+- [x] This task is complete
+- [ ] This task is not complete
+- [ ] Check out the [github blog](https://github.blog/) for topic ideas.
 - [ ] Learn about [GitHub Pages](https://skills.github.com/#first-day-on-github).
 - [ ] Convert my first blog post into an actual webpage.
 - [x] #739
