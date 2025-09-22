@@ -2,6 +2,8 @@
 
 ## Morning Planning
 
+<img alt="Cloudy morning" src="https://octodex.github.com/images/cloud.jpg" width="100" align="right">
+
 - [x] This task is complete
 - [ ] This task is not complete
 - [ ] Check out the [github blog](https://github.blog/) for topic ideas.
@@ -38,3 +40,14 @@ Convert an image or video from dark mode to light mode using [ffmpeg](https://ww
 ```bash
 ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
 ```
+
+## Agregando imagenes a nuestra pagina
+
+Example
+Relative URL to an image in the repository:
+
+![Mona the Octocat](original.png)
+
+Absolute URL to an image on the internet:
+
+<img alt="Mona the Octocat" src="https://octodex.github.com/images/original.png" width="200" align="right">
