@@ -1,6 +1,6 @@
 # Communicate using Markdown
 
-![Professor Octocat](https://octodex.github.com/images/Professortocat_v2.png)
+<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="120">
 
 Hey 4bd1337!
 

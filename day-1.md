@@ -15,19 +15,12 @@
 
 ## Review
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
-puts markdown.render("Hello World!")
-```
-
 Example: Terminal Command
 
 ```bash
 git clone https://github.com/skills/communicate-using-markdown
 ```
 
-git clone <https://github.com/skills/communicate-using-markdown>
 
 Example JavaScript code
 
@@ -41,7 +34,13 @@ Convert an image or video from dark mode to light mode using [ffmpeg](https://ww
 ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
 ```
 
-## Agregando imagenes a nuestra pagina
+```ruby
+require 'redcarpet'
+markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML.new)
+puts markdown.render("Hello World!")
+```
+
+## Adding images to our page
 
 Example
 Relative URL to an image in the repository:
